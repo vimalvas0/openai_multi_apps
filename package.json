@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r ts-node/register --env-file=.env src/basic_chat/index.ts",
     "start_tool": "node -r ts-node/register --env-file=.env src/tools/index.ts",
-    "flight_tool": "node -r ts-node/register --env-file=.env src/tools/flight.ts"
+    "flight_tool": "node -r ts-node/register --env-file=.env src/tools/flight.ts",
+    "dall_e": "node -r ts-node/register --env-file=.env src/other_models/dalle.ts"
   },
   "keywords": [],
   "author": "",

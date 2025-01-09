@@ -1,6 +1,8 @@
 # Environment variables
 .env
 
+images/
+
 # Node modules
 node_modules/
 
