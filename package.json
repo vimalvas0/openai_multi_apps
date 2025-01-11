@@ -7,14 +7,17 @@
     "start": "node -r ts-node/register --env-file=.env src/basic_chat/index.ts",
     "start_tool": "node -r ts-node/register --env-file=.env src/tools/index.ts",
     "flight_tool": "node -r ts-node/register --env-file=.env src/tools/flight.ts",
-    "dall_e": "node -r ts-node/register --env-file=.env src/other_models/dalle.ts"
+    "dall_e": "node -r ts-node/register --env-file=.env src/other_models/dalle.ts",
+    "ttp": "node -r ts-node/register --env-file=.env src/other_models/text_to_speech.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chalk": "^5.4.1",
     "dotenv": "^16.4.7",
+    "lowdb": "^7.0.1",
     "openai": "^4.77.0",
     "tiktoken": "^1.0.18",
     "tsconfig-paths": "^4.2.0"
